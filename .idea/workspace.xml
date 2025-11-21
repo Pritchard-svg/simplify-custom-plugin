@@ -16,9 +16,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Pritchard-svg"
+  }
+}]]></component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="23706905-1af5-4578-a3bc-760280522d8c" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Pritchard-svg/simplify-custom-plugin",
+    "accountId": "23706905-1af5-4578-a3bc-760280522d8c"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -33,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/Admin Zee/Local Sites/khai/app/public/wp-content/plugins/simplify-custom-plugin",
@@ -67,6 +79,7 @@
       <workItem from="1763705155943" duration="781000" />
       <workItem from="1763705980697" duration="1132000" />
       <workItem from="1763736482243" duration="1851000" />
+      <workItem from="1763738934157" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="live deploy">
       <option name="closed" value="true" />
@@ -108,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763707100110</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="live deploy">
+      <option name="closed" value="true" />
+      <created>1763739084118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763739084118</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
