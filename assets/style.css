@@ -1,0 +1,180 @@
+/**
+ * Simplify Custom Plugin - Frontend Styles
+ * Author: Pritchard Zimondi
+ * Description: Custom CSS that demonstrates how to add styles to WordPress
+ */
+
+/* Change the overall page background */
+body.simplify-custom-plugin-active {
+    background-color: #f0f4f8;
+}
+
+/* Style all headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Primary headings get special treatment */
+h1 {
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3498db;
+    margin-top: 30px;
+}
+
+/* Style all buttons and submit inputs */
+button,
+input[type="submit"],
+input[type="button"],
+.button {
+    background: linear-gradient(135deg, #8195e3 0%, #003aff 100%);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="number"],
+textarea,
+select {
+    border: 2px solid #e1e8ed;
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    max-width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+/* Style Gravity Forms specifically */
+.gform_wrapper {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.gform_wrapper .gform_title {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.gform_wrapper .gform_description {
+    color: #7f8c8d;
+    margin-bottom: 25px;
+}
+
+.gform_wrapper .gfield_label {
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 8px;
+}
+
+.gform_wrapper .gfield_required {
+    color: #e74c3c;
+}
+
+/* Add a custom notification banner */
+.simplify-custom-banner {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    animation: slideDown 0.5s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Style links */
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Add some nice spacing to content */
+.entry-content,
+.page-content,
+.post-content {
+    line-height: 1.8;
+}
+
+/* Custom loading animation (can be triggered by JavaScript) */
+.simplify-loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(52, 152, 219, 0.3);
+    border-radius: 50%;
+    border-top-color: #3498db;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .gform_wrapper {
+        padding: 20px;
+    }
+
+    button,
+    input[type="submit"],
+    input[type="button"] {
+        padding: 10px 20px;
+        width: 100%;
+    }
+}
