@@ -3,7 +3,7 @@ name: Deploy Plugin to Sandbox
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
