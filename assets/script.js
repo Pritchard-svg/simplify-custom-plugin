@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function addCustomBanner() {
     const banner = document.createElement('div');
     banner.className = 'simplify-custom-banner';
-    banner.innerHTML = 'Welcome! Custom styles and scripts by Pritchard Zimondi are active.';
+    banner.innerHTML = 'Custom styles and scripts by Pritchard Zimondi are active.';
 
     // Insert at the top of the body
     document.body.insertBefore(banner, document.body.firstChild);
